@@ -3,7 +3,7 @@ FROM centos
 MAINTAINER allocator
 
 # version control
-ENV DL_BASE_VERSION_CTL 1/12/2018 11:10:00
+ENV DL_BASE_VERSION_CTL 5/12/2018 11:10:00
 
 # set env
 ENV ANACONDA_HOME /usr/local/anaconda3
