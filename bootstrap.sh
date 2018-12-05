@@ -1,6 +1,6 @@
 echo 'start the jupyterimage container'
 docker run \
--dit \
+-it \
 --name=jpcontainer \
 -h jpcontainer \
 -v /home/jpdir:/home/jpdir \
@@ -9,5 +9,4 @@ allocator/jpimage \
 --no-browser \
 --ip 0.0.0.0 \
 --notebook-dir /home/jpdir \
---NotebookApp.password_required=false \
 --allow-root
